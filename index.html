@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>
+      Frontend Mentor | Newsletter sign-up form with success message
+    </title>
+  </head>
+  <body>
+    <!-- Sign-up form start -->
+    <div class="main">
+      <!----------------------------------->
+      <div class="header">
+        <div class="text-1">Stay updated!</div>
+        <div class="text-2">
+         Join 60,000+ product managers receiving monthly <p class="para">updates on:</p>
+        </div>
+
+        
+        
+          <div class="ticks">
+            <svg class="icon-1" xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21"><g fill="none"><circle cx="10.5" cy="10.5" r="10.5" fill="#FF6155"/><path stroke="#FFF" stroke-width="2" d="M6 11.381 8.735 14 15 8"/></g></svg>
+            <span class="paragraph-1">Product discovery and building what matters</span>
+          </div>
+          <div class="ticks">
+            <svg class="icon-2" xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21"><g fill="none"><circle cx="10.5" cy="10.5" r="10.5" fill="#FF6155"/><path stroke="#FFF" stroke-width="2" d="M6 11.381 8.735 14 15 8"/></g></svg>
+            <span class="paragraph-2">Measuring to ensure updates are a success</span>
+          </div>
+          <div class="ticks">
+            <svg class="icon-3" xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21"><g fill="none"><circle cx="10.5" cy="10.5" r="10.5" fill="#FF6155"/><path stroke="#FFF" stroke-width="2" d="M6 11.381 8.735 14 15 8"/></g></svg>
+            <span class="paragraph-3">And much more!</span>
+          </div>
+
+      </div>
+      <!----------------------------------->
+      <div class="email" onsubmit="validateEmail(event)">
+        <div class="email-text">Email address</div>
+        <div>
+          <input class='email-type'type="email" placeholder="email@company.com" />
+        </div>
+        <a href="index2.html" class="button">Subscribe to monthly newsletter</a>
+      </div>
+      <!----------------------------------->
+      <div class="image">
+        <div class="picture">
+          <img src="/assets/images/illustration-sign-up-desktop.svg" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- Sign-up form end -->
+  <script src="/script.js"></script>
+  </body>
+</html>
